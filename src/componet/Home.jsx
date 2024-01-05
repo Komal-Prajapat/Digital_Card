@@ -19,7 +19,7 @@ const Home = () => {
             className="w-20 h-20 ml-[120px] sm:ml-8 md:ml-12 lg:ml-16 xl:ml-20"
           />
           <div className="data">
-            <h1 className="text-4xl text-blue-300 ml-16 sm:ml-11 md:ml-12 lg:ml-16 xl:ml-20">
+            <h1 className="text-4xl hcolor ml-16 sm:ml-11 md:ml-12 lg:ml-16 xl:ml-20">
               <span>i - </span> SOFTZONE
             </h1>
             <h3 className="text-2xl text-white ml-16 sm:ml-12 mt-2 sm:mt-0">

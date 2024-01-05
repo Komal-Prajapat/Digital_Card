@@ -6,7 +6,7 @@ import About from './About';
 import ProductLInks from './ProductLInks';
 import PaymentOnline from './PaymentOnline';
 import Last from './Last';
-import Enquiry from './enquiry';
+import Enquiry from './Enquiry';
 import Feedback from './Feedback';
 
 const Navbar = () => {
