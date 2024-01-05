@@ -7,6 +7,8 @@ import {
   faFacebook,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
+import ContactIcons from './ContactIcons';
+import Share from './Share';
 
 const Home = () => {
   return (
@@ -81,7 +83,12 @@ const Home = () => {
       </div>
         
       </div>
-      
+
+{/* Sharing part  */}
+
+<Share></Share>
+     {/* Contact Icons */}
+<ContactIcons></ContactIcons>
     </>
   );
 };

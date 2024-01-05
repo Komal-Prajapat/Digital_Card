@@ -18,8 +18,12 @@ const PaymentOnline = () => {
 
   return (
     <div className="payment_container">
-      <h1 className="text-3xl font-bold mb-6 text-center text-white">PAYMENTS ONLINE</h1>
-      <div className="whitebox bg-white w-[96%] m-auto text-black rounded p-6">
+      <h1 className=" hover:text-2xl text-3xl text-center font-bold mb-3">PAYMENT ONLINE</h1>
+      
+              <hr className='mb-3 bg-black h-1 font-bold w-[210px] m-auto 
+              hover:w-[200px]'></hr>
+
+      <div className="whitebox bg-gray-100 w-[96%] m-auto text-black rounded p-6">
         <div className="payment-numbers-container">
           <div className="payment-number flex mb-4">
             <h3 className='font-bold'>Paytm Number:</h3>

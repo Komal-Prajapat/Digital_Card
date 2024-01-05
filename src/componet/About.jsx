@@ -4,9 +4,12 @@ import './about.css';
 const About = () => {
   return (
     <div className="about-container p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 overflow-y-auto">
-      <h1 className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-8 text-center">
-        ABOUT US
-      </h1>
+     <h1 className=" hover:text-2xl text-3xl text-center font-bold mb-3">ABOUT US</h1>
+      
+      <hr className='mb-3 bg-black h-1 font-bold w-[150px] m-auto 
+      hover:w-[140px]'></hr>
+
+
       <div className="about-data p-2 sm:p-6 md:p-8 lg:p-10 xl:p-12 bg-gray-200">
         <div className="company-info">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mb-4">

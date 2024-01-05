@@ -18,8 +18,22 @@ const Feedback = () => {
 
   return (
     <div className="max-w-md mx-auto p-6 fdform rounded-md shadow-md">
-      <h2 className="text-2xl font-bold mb-4">Give Feedback</h2>
+            <h1 className="hover:text-2xl text-3xl text-center font-bold mb-3">
+            Give Feedback
+          </h1>
+          <hr className='mb-3 bg-black h-1 font-bold w-[210px] m-auto hover:w-[200px]'></hr>
+
+      <div  className="bg-gray-100 w-full p-1 h-full">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptates maiores veniam incidunt quae ducimus. Aut ullam delectus amet quis error. Praesentium, optio!
+
+
+      </div>
+
+
+      
+       {/* feedback form  */}
       <form onSubmit={handleSubmit} className="space-y-4">
+
         <div>
           <label htmlFor="fullName" className="block text-sm font-semibold text-gray-600">
             Full Name:

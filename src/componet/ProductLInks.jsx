@@ -5,8 +5,11 @@ const ProductLInks = () => {
   return (
     <>
       <div className="container bg-red-200">
-        <div className="product bg-white sm:p-6 md:p-8 lg:p-1 xl:p-5 w-[95%] m-auto">
-          <h1 className="heading text-4xl font-bold mb-4">PRODUCT LINKS</h1>
+        <div className="product bg-gray-100 sm:p-6 md:p-8 lg:p-1 xl:p-5 w-[95%] m-auto">
+          <h1 className="hover:text-2xl text-3xl text-center font-bold mb-3">
+            PRODUCT LINKS
+          </h1>
+          <hr className='mb-3 bg-black h-1 font-bold w-[210px] m-auto hover:w-[200px]'></hr>
 
           <div className="apps-info-container info">
             <div className="app-info mt-3 p-4 border rounded mb-6">
@@ -17,8 +20,8 @@ const ProductLInks = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="bg downlod_button bg-black w-[300px] text-white hover:text-blue-200 py-2 rounded cursor-pointer">
-                  Download ECO - E-COMMERCE OSIYA
+                <div className="bg downlod_button bg-black w-full sm:w-[300px] text-white hover:text-blue-200 py-2 rounded cursor-pointer">
+                  Download E-COMMERCE OSIYA
                 </div>
               </a>
             </div>
@@ -31,7 +34,7 @@ const ProductLInks = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="bg downlod_button bg-black w-[300px] text-white hover:text-blue-200 py-2 rounded cursor-pointer">
+                <div className="bg downlod_button bg-black w-full sm:w-[300px] text-white hover:text-blue-200 py-2 rounded cursor-pointer">
                   Download BOMBAY SUPARI
                 </div>
               </a>
@@ -45,7 +48,7 @@ const ProductLInks = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="bg downlod_button bg-black w-[300px] text-white hover:text-blue-200 py-2 rounded cursor-pointer">
+                <div className="bg downlod_button bg-black w-full sm:w-[300px] text-white hover:text-blue-200 py-2 rounded cursor-pointer">
                   Download BHAVESH HARDWARE
                 </div>
               </a>
