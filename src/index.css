@@ -1,0 +1,51 @@
+
+.cardcontainer{
+
+  background: #66fcf1;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.innerenquirycontainer{
+
+  background: #66fcf1;
+}
+.active-scroll-spy {
+  background: #66fcf1;
+  border-radius: 15px;
+}
+.container{
+    background:#1f2833;
+}
+body{
+  background: #c5c6c7;
+}
+.innerbgcolor{
+  background:#1f2833;
+}
+.address{
+  position: relative;
+  top: -20px;
+}
+
+
+
+/* /// create a class for color /// */
+
+.color1{
+  background: #0b0c10;
+  color: #0b0c10;
+}.color2{
+  background: #1f2833;
+  color: #1f2833;
+}
+.color3{
+  background: #c5c6c7;
+  color: #c5c6c7;
+}
+.color4{
+background:#45a29e;
+color:#45a29e;
+
+}

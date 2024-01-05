@@ -1,0 +1,26 @@
+.container1{
+    clip-path: polygon(0 0, 100% 0%, 100% 68%, 48% 86%, 0 67%);
+    width: 100%;
+    height: 200px;
+    background: #c5c6c7;
+}
+.container1{
+    background: #66fcf1;
+}
+body{
+    background: #66fcf1;
+}
+.innercontainer{
+    clip-path: polygon(0 0, 100% 0%, 100% 68%, 48% 86%, 0 67%);
+    background:#1f2833;
+    width: 100%;
+    height: 180px;
+}
+.innercontainer img{
+    border-radius: 100%;
+    
+}
+
+.first{
+    background: #66fcf1;   
+}

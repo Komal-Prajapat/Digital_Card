@@ -1,0 +1,25 @@
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.navbar{
+    background: #1f2833;
+    position: fixed;
+    width: 100%;
+    height: cover;
+    bottom: 0px;
+    color: white;
+   
+  
+
+}
+
+
+.navbar ul li:hover{
+    background: #66fcf1;
+    color: black;
+    padding: 2px;
+    border-radius: 2px;
+}
